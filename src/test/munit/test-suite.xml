@@ -108,9 +108,9 @@ output application/java
 		<munit:execution>
 			<flow-ref doc:name="Flow-ref to mainFlow" doc:id="9fc4999d-1641-4566-98b4-55d37bb1af03"
 				name="mainFlow" />
-			<scripting:execute doc:name="Sleep for 10s until the processing is completed"
+			<scripting:execute doc:name="Sleep for 60s until the processing is completed"
 				doc:id="6d1fb45e-2afb-4e75-8f0d-7015e8e154e1" engine="groovy">
-				<scripting:code>sleep(10000)</scripting:code>
+				<scripting:code>sleep(60000)</scripting:code>
 			</scripting:execute>
 			<flow-ref doc:name="Flow Reference testRecord3" doc:id="feeaf29c-a8b7-414b-94d7-e892117e2e4e"
 				name="testRecord3" />
