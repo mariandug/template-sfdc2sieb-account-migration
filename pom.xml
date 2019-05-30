@@ -10,9 +10,9 @@
     <packaging>mule-application</packaging>
     <version>2.1.2-SNAPSHOT</version>
     <name>template-sfdc2sieb-account-migration</name>
-<!--    <properties>	
-	<sfdc.connector.version>9.7.2</sfdc.connector.version>
-    </properties> -->
+    <properties>	
+	<sfdc.connector.version>9.4.6</sfdc.connector.version>
+    </properties> 
     <build>
         <plugins>
             <plugin>
